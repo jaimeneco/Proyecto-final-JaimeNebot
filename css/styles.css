@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Body{
+display: flex;
+flex-direction: column;
+}
+/*CSS Header*/
+.Header{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+.Header-Logo{
+    justify-content: center;
+    align-content: center;
+}
+
+.Header-LogoIMG{
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.Header-Nav {
+    display: flex;
+    flex-direction: row;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    font-style: normal; 
+}
+
+.NavUl{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+    
+}
+
+.NavUl-Link{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-decoration: none;
+    padding: 50px;
+
+    
+}
+.NavUl-Link:hover{
+    
+    text-underline-position: below;
+    line-height: 1px black;
+}
+
+/*CSS Main*/
+.Main{
+    background: beige;
+    color: black;
+}
+.Main-Content{
+    background: red;
+    width: 100vh;
+    height: 100vh;
+    opacity: 0.7;
+}
+
+.Main-Call {
+    width: 50%;
+    
+}
+
+.Main-Button{
+    display: flex;
+    flex: 1;
+    background: black;
+    opacity: 0.7;
+    border: 1px solid white;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+}
+
+/*CSS Footer*/
+.Footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.Footer-Logo {
+
+}
+
+.Footer-LogoIMG {
+    width: 200px;
+}
+
+.Footer-Copy{
+
+}
+
