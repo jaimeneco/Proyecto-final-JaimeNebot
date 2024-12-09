@@ -12,9 +12,13 @@
 
     <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body class="Body">
+
+    <!-- H E A D E R -->
     <header class="Header">
         <div class="Header-Logo">
             <a href="../html/index.html"><img class="Header-LogoIMG" src="../img/logoJaimeNebot.png"
@@ -23,45 +27,80 @@
 
         <div class="Header-Nav">
             <ul class="NavUl">
-                <a class="NavUl-Link" href="./sobreMi.html">
-                    <li>Sobre mí</li>
+                <a class="NavUl-Link" href="./aboutMe.html">
+                    <li>About me</li>
                 </a>
-                <a class="NavUl-Link" href="./proyectos.html">
-                    <li>Proyectos</li>
+                <a class="NavUl-Link" href="./projects.html">
+                    <li>Projects</li>
                 </a>
-                <a class="NavUl-Link" href="./juegos.html">
-                    <li>Juegos</li>
+                <a class="NavUl-Link" href="./games.html">
+                    <li>Games</li>
                 </a>
-                <a class="NavUl-Link" href="./contacto.html">
-                    <li>¿Hablamos?</li>
+                <a class="NavUl-Link" href="./contact.html">
+                    <li>Contact</li>
+                </a>
+                <a class="NavUl-Link" href="./shop.html">
+                    <li class="material-symbols-outlined">
+                        shopping_cart</li>
                 </a>
             </ul>
         </div>
     </header>
 
+    <!-- M A I N -->
     <main class="Main">
         <div class="Main-Content">
-            <video src="#">YO</video>
-        </div>
-        <div class="Main-Call">
-            <a href="./sobreMi.html"><button class="Main-Button">¡Quiero más!</button></a>
+            <h1 class="Main-H1">Transforming Ideas Into Reality</h1>
+            <a class="Main-ContentLink" href="./contact.html"><button class="Main-Button">Let’s talk!<span
+                        class="material-symbols-outlined">
+                        arrow_forward
+                    </span></button></a>
 
         </div>
+    </main>
+    <main>
 
-        <footer class="Footer">
-            <div class="Footer-TyC">
-                Términos y condiciones (cosas legales)
+    </main>
+
+    <!-- F O O T E R -->
+    <footer class="Footer">
+        <div class="Footer-firstContent">
+            <div class="Footer-Nav">
+                <ul class="FooterUl">
+                    <a class="FooterUl-Link" href="./aboutMe.html">
+                        <li>About me</li>
+                    </a>
+                    <a class="FooterUl-Link" href="./projects.html">
+                        <li>Projects</li>
+                    </a>
+                    <a class="FooterUl-Link" href="./games.html">
+                        <li>Games</li>
+                    </a>
+                    <a class="FooterUl-Link" href="./contact.html">
+                        <li>Contact</li>
+                    </a>
+                </ul>
             </div>
             <div class="Footer-Logo">
                 <img class="Footer-LogoIMG" src="../img/logoJaimeNebotBlanco.png" alt="Logo Jaime Nebot">
             </div>
-            <div class="Footer-Copy">
-                2024 © Todos los derechos reservados - Jaime Nebot
-            </div>
-            
-            
+        </div>
 
-        </footer>
+        <div class="Footer-secondContent">
+            <h3>Email me!</h3>
+            <p>Now that you are here, why don't we talk?</p>
+            <input class="Email-button" type="email" placeholder="Enter your mail...">
+            <input class="Email-button" type="text" placeholder="Write here your questions...">
+            <button class="Email-button">Send</button>
+        </div>
+        <!-- <div class="Footer-TyC">
+                Términos y condiciones (cosas legales)
+            </div> -->
+        
+        <!-- <div class="Footer-Copy">
+                2024 © Todos los derechos reservados - Jaime Nebot
+            </div> -->
+    </footer>
 </body>
 
 </html>
