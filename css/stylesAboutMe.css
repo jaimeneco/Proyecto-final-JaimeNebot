@@ -1,3 +1,9 @@
+/* Colores:
+Negro: Principal #090909 
+Complementario 1 Naranja: #c44900
+Complementario 2 Blanco roto: #F1ECE7
+Blanco total: #ffffff
+*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,54 +16,20 @@
 }
 
 /*--------------------------------
-ABOUT ME HEADER CSS
---------------------------------*/
-.Header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Header-LogoIMG {
-    width: 300px;
-    padding: 30px 40px;
-}
-
-.Header-Nav {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-}
-
-.NavUl {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.NavUl-Link {
-    color: black;
-    text-decoration: none;
-    padding: 30px;
-}
-
-.NavUl-Link:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
-    text-decoration-thickness: 5px;
-}
-
-/*--------------------------------
 ABOUT ME MAIN CSS
 --------------------------------*/
-
+.Main{
+    background: #F1ECE7;
+    background-size: cover;
+    font-family: "Bebas Neue", sans-serif;
+}
 .acordeon {
-    border: 1px solid #ccc;
+    border: 2px solid #090909;
+
 }
 
 .acordeon-item {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
 }
 
 .acordeon-content {
@@ -67,26 +39,35 @@ ABOUT ME MAIN CSS
 .infoTodo{
     display: flex;
     flex-direction: row;
+    
 }
 
 .acordeon-img{
     max-width: 50%;
-    padding: 30px;
-    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3)
+    padding: 0px;
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .acordeon-p{
+    background: #fff;
+    border-radius: 10px;
     padding: 30px;
     text-align: justify;
     display: flex;
     align-items: center; 
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .acordeon-header {
-    background-color: black;
-    color: white;
+    background-color: #fff;
+    color: #090909;
     padding: 10px 5px;
+    border: 2px solid #090909;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    padding: 0px 0px 0px 20px;
 }
 
 .active .acordeon-content {
@@ -94,82 +75,7 @@ ABOUT ME MAIN CSS
 }
 
 .active .acordeon-header {
-    background-color: lightsalmon;
-}
-
-
-/*--------------------------------
-ABOUT ME FOOTER CSS
---------------------------------*/
-.Footer {
-    display: flex;
-    background-color: black;
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 60px;
-}
-
-.Footer-firstContent{
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-}
-
-/* .Footer-Nav{
-} */
-
-.FooterUl{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    font-family: "Bebas Neue", sans-serif;
-}
-
-.FooterUl-Link {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 1.2rem;
-}
-
-.FooterUl-Link:hover {
-    text-decoration: underline;
-    text-decoration-color: white;
-    text-decoration-thickness: 2px;
-}
-
-.Footer-LogoIMG {
-    width: 300px;
-}
-
-.Footer-secondContent{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 10px 10px 10px;
-    align-items: center;
-}
-
-.Footer-Button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-    border: 2px solid white;
-    padding: 30px;
-    color: white;
-    background: none;
-    font-size: 20px;
-    border-radius: 30px;
-    
-}
-.Footer-Button:hover {
-    background: white;
-    color: black;
-    transition: 1s ease;
-}
-.Footer-ContentLink{
-    text-decoration: none;
+    background-color: #c44900;
+    color: #fff;
+    border: none;
 }

@@ -1,3 +1,9 @@
+/* Colores:
+Negro: Principal #090909 
+Complementario 1 Naranja: #c44900
+Complementario 2 Blanco roto: #F1ECE7
+Blanco total: #ffffff
+*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,51 +14,14 @@
     display: flex;
     flex-direction: column;
 }
-/*--------------------------------
-CONTACT HEADER CSS
---------------------------------*/
-.Header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Header-LogoIMG {
-    width: 300px;
-    padding: 30px 40px;
-}
-
-.Header-Nav {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-}
-
-.NavUl {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.NavUl-Link {
-    color: black;
-    text-decoration: none;
-    padding: 30px;
-}
-
-.NavUl-Link:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
-    text-decoration-thickness: 5px;
-}
 
 /*--------------------------------
 CONTACT MAIN CSS
 --------------------------------*/
 .Main {
     display: flex;
-    background-color: black;
-    color: black;
+    flex-direction: row;
+    background-color: #F1ECE7;
     justify-content: space-between;
     align-items: center;
     padding: 40px 30px;
@@ -60,40 +29,90 @@ CONTACT MAIN CSS
     font-size: 20px;
 }
 
-.Main-Content{
+.Left-content{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    color: white;
-    border: 2px solid white;
-    border-radius: 10px;
+    color: #090909;
 }
 
-.Main-map {
-    border: 2px solid white;
-    border-radius: 10px;
+.Maps{
+    display: flex;
+    flex-direction: column;
 }
+.First-map {
+    background: #fff;
+    border: 2px solid #c44900;
+    border-radius: 10px;
+    padding: 10px;
+    margin:0px 0px 20px 0px;
+    transform: translateY(20px); 
+    transition: transform, 1s ease; 
+    }
 
-.Main-redes {
+.First-map:hover{ 
+    transform: translateY(0);
+    }
+
+.Second-map {
+    background: #fff;
+    border: 2px solid #c44900;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px 0px 20px 0px;
+    transform: translateY(20px); 
+    transition: transform, 1s ease; 
+}
+.Second-map:hover{ 
+    transform: translateY(0);
+    }
+
+.Main-social {
+    background: #c44900;
+    color: #fff;
     padding: 20px;
-    border: 2px solid white;
+    border: 2px solid #c44900;
     border-radius: 10px;
+    margin:10px 0px 10px 0px;
+    transform: translateY(20px); 
+    transition: transform, 1s ease; 
+}
+.Main-social:hover{ 
+    transform: translateY(0);
+    }
+
+.Logo-social{
+    width: 80px;
+    padding: 10px;
+}
+.Logo-social:hover{
+    transform: scale(1.2);
 }
 
-.Main-form{
+.Right-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     width: 50%;
-    color: white;
+    color: #090909;
 }
 
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    color: #090909;
+} 
+
 .Fieldset{
+    background: #fff;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border: 2px solid white;
+    border: 2px solid #c44900;
     border-radius: 10px;
     width: 80%;
 }
@@ -103,78 +122,31 @@ CONTACT MAIN CSS
 }
 
 .Fieldset-input{
-    border: 2px solid white;
-    background: none;
+    border: 2px solid #c44900;
+    background: #F1ECE7;
     border-radius: 10px;
     padding: 10px 20px;
-    color: white;
+    color: #090909;
+}
+.Fieldset-input:hover{
+    transform: scale(1.05);
 }
 
 .Btn-form{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid white;
+    border: 2px solid #c44900;
     padding: 20px;
-    color: white;
-    background: none;
+    color: #090909;
+    background: #fff;
     font-size: 20px;
     border-radius: 20px;
 }
 
 .Btn-form:hover {
-    background: white;
-    color: black;
+    background: #c44900;
+    color: #fff;
     transition: 1s ease;
-}
-
-/*--------------------------------
-CONTACT FOOTER CSS
---------------------------------*/
-.Footer {
-    display: flex;
-    background-color: black;
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 60px;
-}
-
-.Footer-firstContent{
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-}
-
-.FooterUl{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    font-family: "Bebas Neue", sans-serif;
-}
-
-.FooterUl-Link {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 1.2rem;
-}
-
-.FooterUl-Link:hover {
-    text-decoration: underline;
-    text-decoration-color: white;
-    text-decoration-thickness: 2px;
-}
-
-.Footer-LogoIMG {
-    width: 300px;
-}
-
-.Footer-secondContent{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 10px 10px 10px;
-    align-items: center;
+    transform: scale(1.05);
 }

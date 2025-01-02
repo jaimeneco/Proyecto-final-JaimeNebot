@@ -1,0 +1,130 @@
+/* Colores:
+Negro: Principal #090909 
+Complementario 1 Naranja: #c44900
+Complementario 2 Blanco roto: #F1ECE7
+Blanco total: #ffffff
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*--------------------------------
+CSS Header
+--------------------------------*/
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #F1ECE7;
+}
+
+.Header-LogoIMG {
+    width: 300px;
+    padding: 30px 40px;
+}
+
+.Header-Nav {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.NavUl {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.NavUl-Link {
+    color: #090909;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.NavUl-Link:hover {
+    text-decoration: underline;
+    text-decoration-color: #090909;
+    text-decoration-thickness: 5px;
+}
+
+/*--------------------------------
+CSS Footer
+--------------------------------*/
+.Footer {
+    display: flex;
+    background-color: #090909;
+    color: #F1ECE7;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 60px;
+}
+
+.Footer-firstContent{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.FooterUl{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.FooterUl-Link {
+    display: flex;
+    flex-direction: column;
+    color: #F1ECE7;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.FooterUl-Link:hover {
+    text-decoration: underline;
+    text-decoration-color: #F1ECE7;
+    text-decoration-thickness: 3px;
+}
+
+.Footer-LogoIMG {
+    width: 300px;
+}
+
+.Footer-secondContent{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 10px 10px;
+    align-items: center;
+}
+
+.Footer-Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border: 2px solid #F1ECE7;
+    padding: 30px;
+    color: #F1ECE7;
+    background: none;
+    font-size: 20px;
+    border-radius: 30px;
+    
+}
+.Footer-Button:hover {
+    background: #c44900;
+    color: #fff;
+    border: none;
+    transition: 1s ease;
+}
+.Footer-ContentLink{
+    text-decoration: none;
+}
