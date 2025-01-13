@@ -23,6 +23,22 @@ ABOUT ME MAIN CSS
     background-size: cover;
     font-family: "Bebas Neue", sans-serif;
 }
+.Main-resumen{
+    /* text-align: justify; */
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    line-height: 1.2;
+    background-color: #fff;
+    color: #090909;
+    border-radius: 20px;
+    margin: 40px;
+    border: 2px solid #090909;
+}
+.Main-resumen:hover{
+    transform: scale(1.05)
+}
+
 .acordeon {
     border: 2px solid #090909;
 
@@ -44,18 +60,25 @@ ABOUT ME MAIN CSS
 
 .acordeon-img{
     max-width: 50%;
+    min-width: 50%;
+    max-height: auto;
+    min-height: auto;
+    height: auto;
     padding: 0px;
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    filter: grayscale();
 }
 
-.acordeon-p{
+.acordeon-li{
     background: #fff;
+    list-style: none;
+    width: 50%;
     border-radius: 10px;
     padding: 30px;
-    text-align: justify;
     display: flex;
-    align-items: center; 
+    flex-direction: column;
+    align-items:flex-start;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,0 +1,20 @@
+/* Colores:
+Negro: Principal #090909 
+Complementario 1 Naranja: #c44900
+Complementario 2 Blanco roto: #F1ECE7
+Blanco total: #ffffff
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*--------------------------------
+SHOP MAIN CSS
+--------------------------------*/

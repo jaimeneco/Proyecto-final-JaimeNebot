@@ -23,6 +23,10 @@ PROJECT MAIN CSS
     background: #F1ECE7;
     
 }
+
+.Main > a{
+    text-decoration: none;
+}
 .Tabs-contenido {
     display: none;
 }
@@ -63,10 +67,6 @@ PROJECT MAIN CSS
 /*--------------------------------
 CSS CARDS PROYECTO WEB
 --------------------------------*/
-a {
-    text-decoration: none;
-    color: #090909;
-}
 
 .cards {
     display: flex;
@@ -80,38 +80,46 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    background-color:#090909;
-    color: #F1ECE7;
-    width: 250px;
+    background-color:#fff;
+    color: #090909;
+    max-width: 400px;
+    min-width: 400px;
     flex: 1 0 220px;
     margin: 10px;
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
+    border: 3px solid #090909;
+    border-radius: 20px;
 }
+
 .card:hover{
     transform: scale(1.1);
     transition: 0.5s ease;
-    background: #F1ECE7;
-    color: #090909;
+    background: #c44900;
+    color: #fff;
+    filter: none;
 }
 
 .card img {
-    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    filter:grayscale();
 }
 
-.card p {
-    margin-top: 5px;
-    font-size: 14px;
+.card img:hover{
+    filter: none;
 }
 
 .card .text {
     display: flex;
     flex-direction: column;
     padding: 0 20px 20px;
+    justify-content: center;
 }
 
 .card button {
-    background: #F1ECE7;
-    border: 2px solid #090909;
+    background: #090909;
     border-radius: 10px;
     margin-top: 30px;
     padding: 10px;
@@ -119,19 +127,33 @@ a {
     text-align: center;
     align-items: center;
     justify-content: center;
+    color:#fff;
 }
 
 button:hover {
     border: none;
-    background:#c44900;
+    background:#fff;
+    color:#c44900;
     transform: scale(1.1);
     transition: 0.5s ease;
 }
 
 h3 {
+    /* opacity: 0; */
     display: flex;
     flex-direction: column;
     cursor: pointer;
     margin: 20px;
     text-align: center;
 }
+
+/*--------------------------------
+CSS CARDS PROYECTO GAMES
+--------------------------------*/
+.card-title{
+    text-decoration: none;
+    color: #090909
+}
+/*-------------------------------------------
+CSS CARDS PROYECTO DISEÑOS E ILUSTRACIONES
+-------------------------------------------*/
