@@ -116,7 +116,9 @@ CSS Footer
     color: #F1ECE7;
     background: none;
     font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
     border-radius: 30px;
+    text-decoration: none;
     
 }
 .Footer-Button:hover {
@@ -124,7 +126,4 @@ CSS Footer
     color: #fff;
     border: none;
     transition: 1s ease;
-}
-.Footer-ContentLink{
-    text-decoration: none;
 }

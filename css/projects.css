@@ -84,7 +84,7 @@ CSS CARDS PROYECTO WEB
     flex: 1 0 220px;
     margin: 10px;
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
-    border: 3px solid #090909;
+    border: none;
     border-radius: 20px;
 }
 
@@ -101,11 +101,6 @@ CSS CARDS PROYECTO WEB
     height: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    filter:grayscale();
-}
-
-.card img:hover{
-    filter: none;
 }
 
 .card .text {

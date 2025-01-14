@@ -1,7 +1,12 @@
-
+//-------------------------------------------------------------
+// 1. VARIABLES
+//-------------------------------------------------------------
 const listaBotones = document.querySelectorAll(".Tabs-button");
 const listaPaginas = document.querySelectorAll(".Tabs-contenido");
 
+//-------------------------------------------------------------
+// 2. FUNCIONES Y EVENT LISTENERS
+//-------------------------------------------------------------
 listaBotones.forEach(boton => {
     boton.addEventListener("click", () => {
 
@@ -17,7 +22,6 @@ listaBotones.forEach(boton => {
     });
 });
 
-
 function quitarClases() {
     listaBotones.forEach(item => {
         item.classList.remove("u-active");
@@ -27,4 +31,7 @@ function quitarClases() {
     })
 }
 
+//-------------------------------------------------------------
+// 3.INICIAR JS
+//-------------------------------------------------------------
 listaBotones[0].click();

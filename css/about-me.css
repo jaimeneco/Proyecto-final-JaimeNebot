@@ -34,15 +34,31 @@ ABOUT ME MAIN CSS
     color: #090909;
     border-radius: 20px;
     margin: 40px;
+    padding: 20px;
     border: 2px solid #090909;
 }
-.Main-resumen:hover{
-    transform: scale(1.05)
-}
 
+.Link-h1{
+background: #fff;
+border: 2px solid #c44900;
+border-radius: 20px;
+padding: 10px;
+margin: 10px;
+text-decoration: none;
+color:#090909;
+font-size: 40px;
+}
+.Link-h1:hover{
+    background:#c44900;
+    border: none;
+    color: #fff;
+}
 .acordeon {
     border: 2px solid #090909;
 
+}
+.acordeon:hover{
+    font-size: 30px;
 }
 
 .acordeon-item {
@@ -88,8 +104,8 @@ ABOUT ME MAIN CSS
 .acordeon-header {
     background-color: #fff;
     color: #090909;
-    padding: 10px 5px;
-    border: 2px solid #090909;
+    padding: 20px 20px;
+    border: 2px solid #c44900;
     border-radius: 10px;
     font-size: 2.5rem;
     padding: 0px 0px 0px 20px;

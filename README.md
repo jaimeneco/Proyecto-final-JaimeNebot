@@ -6,7 +6,7 @@ Proyecto final correspondiente al Módulo de Diseño Web: HTML, CSS y Javascript
 Información general acerca de mi perfil laboral, llamada a la acción y forma de trabajar.
 
 - About Me:
-Información sobre mí dividida en distintos apartados y por edades, acompañada de imágenes.
+Información sobre mí dividida en distintos apartados y acompañada de imágenes.
 
 - Projects:
 En este apartado encontramos los diferentes proyectos que he ido realizando en tres materias diferentes: diseño web, juegos e ilustraciones. Clickando en ellos podemos acceder a una mayor información del proyecto en cuestión.

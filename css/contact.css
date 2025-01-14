@@ -55,6 +55,7 @@ CONTACT MAIN CSS
     }
 
 .Second-map {
+    min-width: 300px;
     background: #fff;
     border: 2px solid #c44900;
     border-radius: 10px;
