@@ -24,9 +24,6 @@ PROJECT MAIN CSS
     
 }
 
-.Main > a{
-    text-decoration: none;
-}
 .Tabs-contenido {
     display: none;
 }
@@ -118,17 +115,6 @@ CSS CARDS PROYECTO WEB
     justify-content: center;
 }
 
-.card button {
-    background: #090909;
-    border-radius: 10px;
-    margin-top: 30px;
-    padding: 10px;
-    width: 50%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color:#fff;
-}
 
 button:hover {
     border: none;
@@ -152,7 +138,10 @@ CSS CARDS PROYECTO GAMES
 --------------------------------*/
 .card-title{
     text-decoration: none;
-    color: #090909
+    color: #090909;
+}
+.card-title:hover{
+    color: #fff;
 }
 /*-------------------------------------------
 CSS CARDS PROYECTO DISEÑOS E ILUSTRACIONES

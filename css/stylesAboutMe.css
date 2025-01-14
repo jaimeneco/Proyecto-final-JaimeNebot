@@ -13,6 +13,7 @@ Blanco total: #ffffff
 .Body {
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 /*--------------------------------
@@ -50,6 +51,7 @@ ABOUT ME MAIN CSS
 
 .acordeon-content {
     display: none;
+    overflow-y: scroll;
 }
 
 .infoTodo{
