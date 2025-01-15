@@ -4,6 +4,9 @@ Complementario 1 Naranja: #c44900
 Complementario 2 Blanco roto: #F1ECE7
 Blanco total: #ffffff
 */
+/*--------------------------------
+CSS RESET INDEX
+--------------------------------*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +18,7 @@ Blanco total: #ffffff
     flex-direction: column;
 }
 /*--------------------------------
-CSS Main
+CSS MAIN INDEX
 --------------------------------*/
 .Main {
     background-image: url(../img/imgLandingPageN.png);
@@ -30,7 +33,7 @@ CSS Main
 
 }
 
-.Main-Content {
+.Main-content {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -39,7 +42,7 @@ CSS Main
     padding: 60px 120px ;
 }
 
-.Main-H1 {
+.Main-h1 {
     display: flex;
     align-items: center; 
     font-size: 5rem;
@@ -52,12 +55,12 @@ CSS Main
     transition: transform 1s ease, opacity 1s ease; /* Efecto de transición */
     }
 
-.Main-H1.aparece {
+.Main-h1.aparece {
     transform: translateX(0); /* Se posiciona en su lugar original */
     opacity: 1; /* Se vuelve visible */
     }
 
-.Main-Button {
+.Main-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +77,7 @@ CSS Main
     text-decoration: none;
 }
 
-.Main-Button:hover {
+.Main-button:hover {
     background: #c44900;
     color: #fff;
     transition: 1s ease;

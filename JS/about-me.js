@@ -1,15 +1,15 @@
 //-------------------------------------------------------------
 // 1. VARIABLES
 //-------------------------------------------------------------
-const headers = document.querySelectorAll(".acordeon-header");
-const items = document.querySelectorAll(".acordeon-item");
+const headers = document.querySelectorAll(".Acordeon-itemHeader");
+const items = document.querySelectorAll(".Acordeon-item");
 
 //-------------------------------------------------------------
 // 2. FUNCIONES Y EVENT LISTENERS
 //-------------------------------------------------------------
 headers.forEach((header) => {
     header.addEventListener("click", () => {
-        const item = header.closest(".acordeon-item");
+        const item = header.closest(".Acordeon-item");
         item.classList.toggle("active");
     });
 });

@@ -1,0 +1,62 @@
+/* Colores:
+Negro: Principal #090909 
+Complementario 1 Naranja: #c44900
+Complementario 2 Blanco roto: #F1ECE7
+Blanco total: #ffffff
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+}
+.Main-h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px 50px;
+}
+
+.Main-project{
+    display: flex;
+    flex-direction: row;
+}
+
+.Main-header{
+color:none;
+}
+
+.Main-headerTitle{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    text-align: left;
+    padding: 10px 50px;
+}
+
+.Main-headerDescription{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px 50px;
+}
+.Main-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Main-contentImage{
+    border-radius: 20px;
+    border: 2px solid #c44900;
+    margin: 40px;
+    justify-content: center;
+
+}
+
+.Main-contentText{
+    color:none;
+}

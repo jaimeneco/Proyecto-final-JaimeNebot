@@ -17,14 +17,14 @@ Blanco total: #ffffff
 }
 
 /*--------------------------------
-ABOUT ME MAIN CSS
+CSS MAIN ABOUT ME
 --------------------------------*/
 .Main{
     background: #F1ECE7;
     background-size: cover;
     font-family: "Bebas Neue", sans-serif;
 }
-.Main-resumen{
+.Main-section{
     /* text-align: justify; */
     text-align: center;
     padding: 30px;
@@ -35,48 +35,71 @@ ABOUT ME MAIN CSS
     border-radius: 20px;
     margin: 40px;
     padding: 20px;
-    border: 2px solid #090909;
+    border: 2px solid #c44900;
 }
 
-.Link-h1{
+.Main-p{
+    padding: 20px;
+}
+
+.Main-button{
 background: #fff;
 border: 2px solid #c44900;
 border-radius: 20px;
 padding: 10px;
-margin: 10px;
+margin: 100px;
 text-decoration: none;
 color:#090909;
 font-size: 40px;
 }
-.Link-h1:hover{
+
+.Main-button:hover{
     background:#c44900;
     border: none;
     color: #fff;
-}
-.acordeon {
-    border: 2px solid #090909;
-
-}
-.acordeon:hover{
-    font-size: 30px;
+    transition: 1s ease;
 }
 
-.acordeon-item {
+/* CSS ACORDEÓN */
+
+.Main-acordeon{
+    text-decoration: none;
+}
+.Acordeon-item {
     padding: 10px;
 }
 
-.acordeon-content {
+.Acordeon-itemHeader {
+    background-color: #fff;
+    color: #090909;
+    padding: 20px 20px;
+    border: 2px solid #c44900;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    padding: 0px 0px 0px 20px;
+}
+
+.active .Acordeon-itemHeader {
+    background-color: #c44900;
+    color: #fff;
+    border: none;
+}
+
+.Acordeon-itemContent {
     display: none;
     overflow-y: scroll;
 }
 
-.infoTodo{
-    display: flex;
-    flex-direction: row;
-    
+.active .Acordeon-itemContent {
+    display: block;
 }
 
-.acordeon-img{
+.Acordeon-itemInfo{
+    display: flex;
+    flex-direction: row;
+}
+
+.Acordeon-image{
     max-width: 50%;
     min-width: 50%;
     max-height: auto;
@@ -88,7 +111,7 @@ font-size: 40px;
     filter: grayscale();
 }
 
-.acordeon-li{
+.Acordeon-list{
     background: #fff;
     list-style: none;
     width: 50%;
@@ -101,22 +124,23 @@ font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.acordeon-header {
-    background-color: #fff;
-    color: #090909;
-    padding: 20px 20px;
-    border: 2px solid #c44900;
-    border-radius: 10px;
-    font-size: 2.5rem;
-    padding: 0px 0px 0px 20px;
+.Acordeon-listItem{
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.active .acordeon-content {
-    display: block;
+.Acordeon-listItem--title {
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 10px 0px;
+}
+.Acordeon-listItem--subtitle{
+    font-style:italic;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.active .acordeon-header {
-    background-color: #c44900;
-    color: #fff;
-    border: none;
-}
+

@@ -4,7 +4,9 @@ Complementario 1 Naranja: #c44900
 Complementario 2 Blanco roto: #F1ECE7
 Blanco total: #ffffff
 */
-
+/*--------------------------------
+CSS RESET GENERAL
+--------------------------------*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +19,7 @@ Blanco total: #ffffff
 }
 
 /*--------------------------------
-CSS Header
+CSS HEADER GENERAL
 --------------------------------*/
 .Header {
     display: flex;
@@ -27,36 +29,36 @@ CSS Header
     background: #F1ECE7;
 }
 
-.Header-LogoIMG {
+.Header-logoImage {
     width: 300px;
     padding: 30px 40px;
 }
 
-.Header-Nav {
+.Header-nav {
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
 }
 
-.NavUl {
+.Header-navList {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
-.NavUl-Link {
+.Header-navLink {
     color: #090909;
     text-decoration: none;
     padding: 30px;
 }
 
-.NavUl-Link:hover {
+.Header-navLink:hover {
     text-decoration: underline;
     text-decoration-color: #090909;
     text-decoration-thickness: 5px;
 }
 
 /*--------------------------------
-CSS Footer
+CSS FOOTER GENERAL
 --------------------------------*/
 .Footer {
     display: flex;
@@ -67,20 +69,20 @@ CSS Footer
     padding: 60px 60px;
 }
 
-.Footer-firstContent{
+.Footer-nav{
     display: flex;
     flex-direction: column;
     padding: 0px;
 }
 
-.FooterUl{
+.Footer-navList{
     display: flex;
     flex-direction: column;
     list-style: none;
     font-family: "Bebas Neue", sans-serif;
 }
 
-.FooterUl-Link {
+.Footer-navLink {
     display: flex;
     flex-direction: column;
     color: #F1ECE7;
@@ -89,24 +91,24 @@ CSS Footer
     font-size: 1.2rem;
 }
 
-.FooterUl-Link:hover {
+.Footer-navLink:hover {
     text-decoration: underline;
     text-decoration-color: #F1ECE7;
     text-decoration-thickness: 3px;
 }
 
-.Footer-LogoIMG {
+.Footer-logoImage {
     width: 300px;
 }
 
-.Footer-secondContent{
+.Footer-content{
     display: flex;
     flex-direction: column;
     padding: 0px 10px 10px 10px;
     align-items: center;
 }
 
-.Footer-Button {
+.Footer-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,11 +121,16 @@ CSS Footer
     font-family: "Bebas Neue", sans-serif;
     border-radius: 30px;
     text-decoration: none;
-    
 }
-.Footer-Button:hover {
+
+.Footer-button:hover {
     background: #c44900;
     color: #fff;
     border: none;
     transition: 1s ease;
+}
+
+.Footer-text{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: large;
 }
