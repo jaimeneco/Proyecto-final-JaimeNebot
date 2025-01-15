@@ -26,6 +26,22 @@ const proyectos = [
         img1: "../img/imgJaimeAdult.jpeg", 
         alt1: "...",
     },
+    {
+        id: 4, 
+        titulo: "Piedra, papel o tijera", 
+        descripcion: "Proyecto correspondiente al Módulo de Diseño web: HTML, CSS y Javascript del CEI Valencia. En este proyecto teníamos que realizar una página web de recetas de cocina. El proyecto pretende convertirse en una comunidad de aficionados a la cocina, en la que poder compartir y valorar recetas propias o de otros usuarios. La página dispone de menús en los que poder buscar tus recetas favoritas, retos semanales y comidas filtradas por país o por tipo de alimento. Además, se le añadió una página de registro e inicio de sesión para que los usuarios pudieran navegar, guardar sus datos y almacenar información en su perfil de usuario.", 
+        text1: "*Imagen del proyecto terminado", 
+        img1: "../img/imgJaimeAdult.jpeg", 
+        alt1: "...",
+    },
+    {
+        id: 5, 
+        titulo: "Segundo Juego", 
+        descripcion: "Proyecto correspondiente al Módulo de Diseño web: HTML, CSS y Javascript del CEI Valencia. En este proyecto teníamos que realizar una página web de recetas de cocina. El proyecto pretende convertirse en una comunidad de aficionados a la cocina, en la que poder compartir y valorar recetas propias o de otros usuarios. La página dispone de menús en los que poder buscar tus recetas favoritas, retos semanales y comidas filtradas por país o por tipo de alimento. Además, se le añadió una página de registro e inicio de sesión para que los usuarios pudieran navegar, guardar sus datos y almacenar información en su perfil de usuario.", 
+        text1: "*Imagen del proyecto terminado", 
+        img1: "../img/imgJaimeAdult.jpeg", 
+        alt1: "...",
+    },
 ];
 
 const contenedorProyecto = document.getElementById("proyecto");
@@ -52,3 +68,4 @@ if (proyecto) {
 } else {
     contenedorProyecto.innerHTML = `<p class="ProjectHeader-title"> Proyecto no encontrado :( <br> Lo sentimos </p>`;
 }
+
