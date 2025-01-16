@@ -56,6 +56,7 @@ align-content: center;
     flex-direction: column;
     align-content: center;
     padding: 30px;
+    
 }
 .Content{
     width: 100%;
@@ -63,18 +64,27 @@ align-content: center;
     border-radius: 20px;
     border: 2px solid #c44900;
     display: flex;
+    
     margin:10px 2px;
 }
 .Content img{
     width: 100%;
-    height: auto;
+    min-width: 400px;
+    min-height: 400px;
     display: block;
+}
+.Content:hover{
+    transform: scale(1.05);
 }
 
 .Content-row{
     display: flex;
     justify-content: space-between;
     gap: 0px;
+    
+}
+.Content-row:hover{
+    transform: scale(1.05);
 }
 .Content-row .Content{
     width: 50%;

@@ -14,7 +14,7 @@ const proyectos = [
     {
         id: 2, 
         titulo: "Music Player", 
-        descripcion: "Proyecto correspondiente al Módulo de Diseño web: HTML, CSS y Javascript del CEI Valencia. En este proyecto teníamos que realizar un reproductor de música en el que poder filtrar por nombre de canciones, artista y su estilo. Además, también debíamos incluir botones de control de reproducción como Play, Pause, Siguiente y Anterior. Respecto a la lista de las canciones, yo he elegido aquellas que más encajan conmigo en estos últimos meses. ", 
+        descripcion: "Proyecto correspondiente al Módulo de Diseño web: HTML, CSS y Javascript del CEI Valencia. En este proyecto teníamos que realizar un reproductor de música totalmente funcional e interactivo que destacara tanto en diseño como en una usabilidad eficaz y sencilla. <br> El reproductor debía permitir filtrar por diferentes secciones: nombre de las canciones, el artista o aspectos como el estilo musical. Esto hace que los usuarios puedan navegar de manera fluída, encontrando fácilmente aquellas canciones que desan escuchar. Además de las distintas formas de filtrado de canciones, el proyecto también requería implementar los controles típicos de reproducción, tales como los botones de Play, Pause, Siguiente y Anterior, consiguiendo una experiencia real por parte del usuario. Acompañando a estos controles, podemos encontrar una barra de progreso que muestra el tiempo que lleva trascurrido de la canción y su duración total.", 
         text1: "*Imagen del proyecto terminado", 
         img1: "../img/projects-web/reproductor-single.png",
         img2: "../img/projects-web/reproductor-lista.png",

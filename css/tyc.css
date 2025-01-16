@@ -1,0 +1,45 @@
+/* Colores:
+Negro: Principal #090909 
+Complementario 1 Naranja: #c44900
+Complementario 2 Blanco roto: #F1ECE7
+Blanco total: #ffffff
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+/*--------------------------------
+CSS MAIN ABOUT ME
+--------------------------------*/
+.Main{
+    background: #fff;
+    background-size: cover;
+    font-family: "Bebas Neue", sans-serif;
+    
+    padding: 50px;
+    text-align: justify;
+}
+.Main-title{
+    padding: 10px 0px;
+    font-size: 45px ;
+}
+
+.Main-subtitle{
+    padding: 10px 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 26px;
+}
+
+.Main-text{
+    padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}

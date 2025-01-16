@@ -134,3 +134,16 @@ CSS FOOTER GENERAL
     font-family: "Bebas Neue", sans-serif;
     font-size: large;
 }
+.Footer-textLink{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color:#fff;
+    padding-top: 10px;
+}
+.Footer-textLink:hover{
+    text-decoration: underline;
+    text-decoration-color: #F1ECE7;
+    text-decoration-thickness: 3px;
+    transform: scale(1.1);
+}

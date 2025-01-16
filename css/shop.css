@@ -18,3 +18,15 @@ Blanco total: #ffffff
 /*--------------------------------
 SHOP MAIN CSS
 --------------------------------*/
+.Main{
+    background: #F1ECE7;
+}
+
+#Main-resumen{
+    border: 2px solid #c44900;
+    border-radius: 20px;
+    padding: 50px;
+    margin:50px;
+    background: #fff;
+    font-family: "Bebas Neue", sans-serif;
+}

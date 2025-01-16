@@ -5,27 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Proyecto final CEI: Portfolio de Jaime Nebot">
-    <meta name="keywords" content="portfolio, web, full stack, desarrollo">
-    <meta name="author" content="Jaime Nebot">
-    <title>Tienda</title>
+    <title>Términos y condiciones</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/shop.css">
-    <script defer src="../JS/shop.js"></script>
-
+    <link rel="stylesheet" href="../css/tyc.css">
 </head>
 
-<body class="Body">
-
+<body>
     <!-- H E A D E R -->
     <header class="Header">
         <div class="Header-logo">
-            <a href="../html/index.html"><img class="Header-logoImage" src="../img/logo-negro.png"
-                    alt="Logotipo"></a>
+            <a href="../html/index.html"><img class="Header-logoImage" src="../img/logo-negro.png" alt="Logotipo"></a>
         </div>
 
         <nav class="Header-nav">
@@ -42,19 +35,21 @@
 
     <!-- M A I N -->
     <main class="Main">
-        <div id="Main-resumen">
-            <h1>Artículos en el carrito:<span id="Contador-item"> 0 </span></h1>
-            <p>Precio total: €<span id="Contador-precio"> 0.00 </span></p>
-        </div>
+        <h1 class="Main-title">TÉRMINOS Y CONDICIONES</h1>
+        <p class="Main-text">Esta página web es propiedad y está operada por Jaime Nebot. Estos Términos establecen los términos y condiciones bajo los cuales puedes usar esta página web y sus servicios. Esta página web ofrece la visualización de un Portfolio creativo personal. Al acceder o usar la página web, aceptas haber leído, entendido y aceptado estar sujeto a estos Términos:</p>
 
+        <h2 class="Main-subtitle">INFORMACIÓN RELEVANTE</h2>
+        <p class="Main-text">Todas las transacciones que se lleven a cabo por medio de este sitio web, están sujetas a un proceso de confirmación y verificación, el cual podría incluir la validación de la forma de pago, validación de la factura (en caso de existir) y el cumplimiento de las condiciones requeridas por el medio de pago seleccionado. En algunos casos puede que se requiera una verificación por medio de correo electrónico. Los precios de los servicios ofrecidos en esta web son válidos solamente en las suscripciones realizadas en este sitio web.</p>
+            
+        <h2 class="Main-subtitle">LICENCIA</h2>
+        <p class="Main-text">Jaime Nebot a través de su sitio web concede una licencia para que los usuarios utilicen los servicios que son vendidos en este sitio web de acuerdo a los Términos y Condiciones que se describen en este documento.</p>
+            
+        <h2 class="Main-subtitle">USO NO AUTORIZADO</h2>
+        <p class="Main-text">En caso de que aplique (para venta de software, templetes, u otro producto de diseño y programación) usted no puede colocar uno de nuestros productos, modificado o sin modificar, en un CD, sitio web o ningún otro medio y ofrecerlos para la redistribución o la reventa de ningún tipo.</p>
+            
+        <h2 class="Main-subtitle">PROPIEDAD</h2>
+        <p class="Main-text">Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros productos, modificado o sin modificar. Todos los productos son propiedad de los proveedores del contenido.</p>
     </main>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const cart = JSON.parse(localStorage.getItem("cart")) ||{ items: 0, total: 0 };
-            document.getElementById("Contador-item").textContent = cart.items;
-            document.getElementById("Contador-precio").textContent = cart.total.toFixed(2);
-        });
-    </script>
 
     <!-- F O O T E R -->
     <footer class="Footer">
@@ -78,5 +73,3 @@
         </div>
     </footer>
 </body>
-
-</html>

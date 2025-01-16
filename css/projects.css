@@ -83,7 +83,6 @@ CSS CARDS PROYECTO WEB
     color: #090909;
     max-width: 400px;
     min-width: 400px;
-    
     flex: 1 0 220px;
     margin: 10px;
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
@@ -121,13 +120,6 @@ CSS CARDS PROYECTO WEB
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
-/* .Card img  {
-    width: 100%;
-    height: 300px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-} */
 
 .Card .Card-text {
     display: flex;
