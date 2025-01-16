@@ -1,9 +1,12 @@
-/* Colores:
+/*COLORES: 
 Negro: Principal #090909 
 Complementario 1 Naranja: #c44900
 Complementario 2 Blanco roto: #F1ECE7
 Blanco total: #ffffff
 */
+/*--------------------------------
+PROJECTS ESPECÍFICO CSS
+--------------------------------*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,12 +19,11 @@ Blanco total: #ffffff
 }
 
 /*--------------------------------
-PROJECT MAIN CSS
+PROJECTS ESPECÍFICO CSS
 --------------------------------*/
 
 .Main{
     background: #F1ECE7;
-    
 }
 
 .Tabs-contenido {
@@ -65,7 +67,7 @@ PROJECT MAIN CSS
 CSS CARDS PROYECTO WEB
 --------------------------------*/
 
-.cards {
+.Cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -74,13 +76,14 @@ CSS CARDS PROYECTO WEB
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.card {
+.Card {
     display: flex;
     flex-direction: column;
     background-color:#fff;
     color: #090909;
     max-width: 400px;
     min-width: 400px;
+    
     flex: 1 0 220px;
     margin: 10px;
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
@@ -88,38 +91,52 @@ CSS CARDS PROYECTO WEB
     border-radius: 20px;
 }
 
-.card:hover{
+.Card:hover{
     transform: scale(1.1);
     transition: 0.5s ease;
     background: #c44900;
     color: #fff;
     filter: none;
 }
+.Card-ilustration{
+    width: 100%;
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-height: 200px;
+    max-height: 400px;
+    max-width: 200px;
+    min-width: 400px;
+}
 
-.card img {
+.Card-game  {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Card-web{
     width: 100%;
     height: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.card .text {
+/* .Card img  {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+} */
+
+.Card .Card-text {
     display: flex;
     flex-direction: column;
     padding: 0 20px 20px;
     justify-content: center;
 }
 
-
-button:hover {
-    border: none;
-    background:#fff;
-    color:#c44900;
-    transform: scale(1.1);
-    transition: 0.5s ease;
-}
-
-h3 {
+.Card-h3 {
     /* opacity: 0; */
     display: flex;
     flex-direction: column;
@@ -131,13 +148,10 @@ h3 {
 /*--------------------------------
 CSS CARDS PROYECTO GAMES
 --------------------------------*/
-.card-title{
+.Card-title{
     text-decoration: none;
     color: #090909;
 }
-.card-title:hover{
+.Card-title:hover{
     color: #fff;
 }
-/*-------------------------------------------
-CSS CARDS PROYECTO DISEÑOS E ILUSTRACIONES
--------------------------------------------*/
