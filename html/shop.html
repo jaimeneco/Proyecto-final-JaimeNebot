@@ -1,3 +1,11 @@
+<!-- Descripción: este archivo HTML contiene la página de la tienda (shop) del sitio web.
+Estructura general:
+- Head
+- Body:
+    - Header:
+    - Main
+    - Footer -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,11 +14,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Proyecto final CEI: Portfolio de Jaime Nebot">
-    <meta name="keywords" content="portfolio, web, full stack, desarrollo">
+    <meta name="keywords" content="portfolio, artículos, carrito, shop">
     <meta name="author" content="Jaime Nebot">
     <title>Tienda</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="../css/general.css">
@@ -23,17 +32,18 @@
 
     <!-- H E A D E R -->
     <header class="Header">
+        <!-- Contenido del header: logotipo -->
         <div class="Header-logo">
-            <a href="../html/index.html"><img class="Header-logoImage" src="../img/logo-negro.png"
+            <a title="Ir al Home" href="../index.html"><img class="Header-logoImage" src="../img/logo-negro.png"
                     alt="Logotipo"></a>
         </div>
-
+        <!-- Contenido del header: navegación -->
         <nav class="Header-nav">
             <ul class="Header-navList">
-                <li class="Header-navItem"><a class="Header-navLink" href="./about-me.html">About me</a></li>
-                <li class="Header-navItem"><a class="Header-navLink" href="./projects.html">Projects</a></li>
-                <li class="Header-navItem"><a class="Header-navLink" href="./contact.html">Contact</a></li>
-                <li class="material-symbols-outlined"><a class="Header-navLink" href="./shop.html">shopping_cart</a>
+                <li class="Header-navItem"><a class="Header-navLink" title="Ir a about me" href="./about-me.html">About me</a></li>
+                <li class="Header-navItem"><a class="Header-navLink" title="Ir a projects" href="./projects.html">Projects</a></li>
+                <li class="Header-navItem"><a class="Header-navLink" title="Ir a contact" href="./contact.html">Contact</a></li>
+                <li class="material-symbols-outlined"><a class="Header-navLink" title="Ir a shop" href="./shop.html">shopping_cart</a>
                 </li>
                 </a>
             </ul>
@@ -58,23 +68,24 @@
 
     <!-- F O O T E R -->
     <footer class="Footer">
+        <!-- Contenido del footer: navegación -->
         <nav class="Footer-nav">
             <ul class="Footer-navList">
-                <li class="Footer-navItem"><a class="Footer-navLink" href="./about-me.html">About me</a></li>
-                <li class="Footer-navItem"><a class="Footer-navLink" href="./projects.html">Projects</a></li>
-                <li class="Footer-navItem"><a class="Footer-navLink" href="./contact.html">Contact</a></li>
-                <li class="material-symbols-outlined"><a class="Footer-navLink" href="./shop.html">shopping_cart</a>
+                <li class="Footer-navItem"><a class="Footer-navLink" title="Ir a about me"href="./about-me.html">About me</a></li>
+                <li class="Footer-navItem"><a class="Footer-navLink" title="Ir a projects"href="./projects.html">Projects</a></li>
+                <li class="Footer-navItem"><a class="Footer-navLink" title="Ir a contact"href="./contact.html">Contact</a></li>
+                <li class="material-symbols-outlined"><a class="Footer-navLink" title="Ir a shop"href="./shop.html">shopping_cart</a>
                 </li>
             </ul>
         </nav>
-
+        <!-- Contenido del footer: logotipo, link a contacto, copyright y Términos y condiciones -->
         <div class="Footer-content">
-            <a href="../html/index.html" class="Footer-logoLink"><img class="Footer-logoImage"
+            <a href="../index.html" title="Ir al Home" class="Footer-logoLink"><img class="Footer-logoImage"
                     src="../img/logo-blanco.png" alt="Logo Blanco"></a>
-            <a class="Footer-button" href="./contact.html">¡Contáctame!<span
+            <a class="Footer-button" title="Ir a contact" href="./contact.html">¡Contáctame!<span
                     class="material-symbols-outlined">arrow_forward</span></a>
             <p class="Footer-text">2024 © Todos los derechos reservados - Jaime Nebot</p>
-            <a class="Footer-textLink" href="tyc.html" title="Términos y condiciones">Términos y condiciones</a>
+            <a class="Footer-textLink" href="tyc.html" title="Ir a Términos y condiciones">Términos y condiciones</a>
         </div>
     </footer>
 </body>

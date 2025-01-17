@@ -120,6 +120,7 @@ CONTACT MAIN CSS
 
 .Fieldset-label{
     padding: 20px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .Fieldset-input{
@@ -143,6 +144,8 @@ CONTACT MAIN CSS
     background: #fff;
     font-size: 20px;
     border-radius: 20px;
+    font-family: "Bebas Neue";
+    font-size: 1.8rem;
 }
 
 .Btn-form:hover {

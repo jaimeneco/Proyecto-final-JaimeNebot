@@ -40,6 +40,7 @@ CSS MAIN ABOUT ME
 
 .Main-p{
     padding: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .Main-button{
@@ -121,14 +122,14 @@ font-size: 40px;
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .Acordeon-listItem{
     padding-left: 20px;
     font-size: 16px;
     line-height: 1.1;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .Acordeon-listItem--title {
@@ -140,7 +141,7 @@ font-size: 40px;
     font-style:italic;
     font-size: 16px;
     padding-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat" sans-serif;
 }
 
 
