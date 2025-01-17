@@ -53,18 +53,24 @@ Estructura general:
     <!-- M A I N -->
     <main class="Main">
         <div id="Main-resumen">
-            <h1>Artículos en el carrito:<span id="Contador-item"> 0 </span></h1>
-            <p>Precio total: €<span id="Contador-precio"> 0.00 </span></p>
+            <h1>Artículos en el carrito:</h1>
+            <div class="Producto">
+                <img class="Producto-image" src="../img/projects-ilustration/ilus-adidas/adidas-fairfax.jpg" alt="Fairfax Adidas">
+                <p class="Producto-text">Print 21cm x 30cm | 20€</p>
+                
+            </div>
+
+            <div class="Producto">
+                <img class="Producto-image" src="../img/projects-ilustration/ilus-black/black-a.jpg" alt="Black A">
+                <p class="Producto-text">Print 10cm x 15cm | 10€</p>
+            </div>
+
+            <p class="Producto-precio">Precio total: 30€</p>
+            <a title="Llévame al pago" href="../html/shop.html" class="Btn-shop">Pagar</a>
+            <a title="Continuar comprando" href="../html/projects.html" class="Btn-shop">Continuar comprando</a>
         </div>
 
     </main>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const cart = JSON.parse(localStorage.getItem("cart")) ||{ items: 0, total: 0 };
-            document.getElementById("Contador-item").textContent = cart.items;
-            document.getElementById("Contador-precio").textContent = cart.total.toFixed(2);
-        });
-    </script>
 
     <!-- F O O T E R -->
     <footer class="Footer">

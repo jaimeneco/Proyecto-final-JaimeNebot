@@ -19,7 +19,7 @@ Blanco total: #ffffff
 SHOP MAIN CSS
 --------------------------------*/
 .Main{
-    background: #F1ECE7;
+    background: #fff;
 }
 
 #Main-resumen{
@@ -27,6 +27,42 @@ SHOP MAIN CSS
     border-radius: 20px;
     padding: 50px;
     margin:50px;
-    background: #fff;
+    background: #f1ece7;
     font-family: "Bebas Neue", sans-serif;
+}
+.Producto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+.Producto-image{
+    width: 100px;
+    height: 150px;
+    margin: 20px;
+}
+.Producto-text{
+margin: 20px;
+font-family: "Montserrat", sans-serif;
+font-size: 1.5rem;
+}
+
+.Producto-precio{
+    margin: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+}
+
+.Btn-shop{
+    background: #c44900;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 20px 30px 20px;
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.Btn-shop:hover{
+    font-size: 1.5rem;
 }

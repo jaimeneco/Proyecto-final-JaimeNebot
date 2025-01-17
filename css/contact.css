@@ -29,7 +29,7 @@ CONTACT MAIN CSS
     font-size: 20px;
 }
 
-.Left-content{
+.Main-content{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -40,7 +40,7 @@ CONTACT MAIN CSS
     display: flex;
     flex-direction: column;
 }
-.First-map {
+.Map-grande {
     background: #fff;
     border: 2px solid #c44900;
     border-radius: 10px;
@@ -50,11 +50,11 @@ CONTACT MAIN CSS
     transition: transform, 1s ease; 
     }
 
-.First-map:hover{ 
+.Map-grande:hover{ 
     transform: translateY(0);
     }
 
-.Second-map {
+.Map-mediano {
     min-width: 300px;
     background: #fff;
     border: 2px solid #c44900;
@@ -64,7 +64,7 @@ CONTACT MAIN CSS
     transform: translateY(20px); 
     transition: transform, 1s ease; 
 }
-.Second-map:hover{ 
+.Map-mediano:hover{ 
     transform: translateY(0);
     }
 
@@ -90,7 +90,7 @@ CONTACT MAIN CSS
     transform: scale(1.2);
 }
 
-.Right-content{
+.Main-form{
     display: flex;
     flex-direction: column;
     align-items: center;

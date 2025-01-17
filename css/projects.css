@@ -128,6 +128,20 @@ CSS CARDS PROYECTO WEB
     justify-content: center;
 }
 
+#Card-btn{
+    border: 2px solid #c44900;
+    padding: 10px;
+    margin: 0px 60px 20px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #090909;
+    text-align: center;
+}
+#Card-btn:hover{
+    border:2px solid #fff;
+    background:#fff;
+    color:#c44900
+}
 .Card-h3 {
     font-family: "Montserrat", sans-serif;
     display: flex;

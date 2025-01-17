@@ -49,9 +49,10 @@ Estructura general:
 
     <!-- M A I N -->
     <main class="Main">
-        <div class="Left-content">
-            <div class="Maps">
-                <div class="First-map">
+        <!-- Contenido del main (lado izquierdo): mapas y redes sociales -->
+        <section class="Main-content">
+            <section class="Maps">
+                <div class="Map-grande">
                     <h2>¡Aquí vivo!</h2>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98647.15899177309!2d-0.4439116889080342!3d39.40775618645996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f35909b5015%3A0x83499d175a2c11b4!2sVal%C3%A8ncia-Nord!5e0!3m2!1ses!2ses!4v1735206786894!5m2!1ses!2ses"
@@ -59,7 +60,7 @@ Estructura general:
                     </iframe>
                 </div>
 
-                <div class="Second-map">
+                <div class="Map-mediano">
                     <h3>Me encantaría trabajar en:</h3>
 
                     <iframe
@@ -79,17 +80,17 @@ Estructura general:
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
-            </div>
+            </section>
 
-            <div class="Main-social">
+            <section class="Main-social">
                 <h2>Puedes encontrarme en:</h2>
                 <a title="Ir a Instagram" href="https://www.instagram.com/mr.nebot/"><img class="Logo-social" src="../img/contact/logo-ig.png" alt="Logo Instagram"></a>
                 <a title="Ir a Linkedin" href="https://www.linkedin.com/in/jaime-nebot-54132419b/"><img class="Logo-social" src="../img/contact/logo-lkdn.png" alt="Logo Linkedin"></a>
                 <a title="Ir a Whatsapp" href="https://www.whatsapp.com/?lang=es_LA"><img class="Logo-social" src="../img/contact/logo-wha.png" alt="Logo Whatsapp"></a>
-            </div>
-        </div>
-
-        <div class="Right-content">
+            </section>
+        </section>
+        <!-- Contenido del main (lado derecho): formulario -->
+        <section class="Main-form">
             <form class="Form" action="./index.html" method="POST">
                 <h1>¡Trabajemos juntos!</h1>
                 <fieldset class="Fieldset">
@@ -111,7 +112,7 @@ Estructura general:
                     <button class="Btn-form" type="submit">¡Enviar!</button>
                 </fieldset>
             </form>
-        </div>
+        </section>
     </main>
 
     <!-- F O O T E R -->
