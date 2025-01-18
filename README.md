@@ -14,8 +14,11 @@ En este apartado encontramos los diferentes proyectos que he ido realizando en t
 - Contact:
 Información general sobre cómo encontrarme y contactar conmigo, ya sea para contratación como empleado o para proyectos freelance. Además se incluyen enlaces a mis distintas redes sociales.
 
-- Carrito de compra:
+- Shop:
 En este apartado se sumarán aquellos productos que puedan ser adquiridos en la página web, viendo el total de productos y de presupuesto seleccionado.
+
+- TyC:
+En esta página se recogen los Términos y condiciones del sitio web.
 
 ## CSS:
 Se ha creado un archivo CSS General en todos los HTML con mismas características para Headers y Footers. Además, se ha creado un archivo propio para cada uno de los diferentes Mains y sus características.
