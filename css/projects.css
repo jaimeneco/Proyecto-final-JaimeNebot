@@ -116,7 +116,7 @@ CSS MAIN PROJECTS
 }
 
 /* CSS MAIN BOTONES ENLACE A PROYECTOS*/
-#Card-btn{
+.Card-btn{
     border: 2px solid #c44900;
     padding: 10px;
     margin: 0px 60px 20px 60px;
@@ -125,7 +125,7 @@ CSS MAIN PROJECTS
     color: #090909;
     text-align: center;
 }
-#Card-btn:hover{
+.Card-btn:hover{
     border:2px solid #fff;
     background:#fff;
     color:#c44900
