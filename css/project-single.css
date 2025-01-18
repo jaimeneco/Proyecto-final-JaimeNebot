@@ -81,3 +81,152 @@ align-content: center;
 .Content-row .Content{
     width: 50%;
 }
+
+/*--------------------------------
+CSS MEDIA QUERIES PROJECT-SINGLE
+--------------------------------*/
+@media (max-width: 768px){
+/* AJUSTES MEDIA QUERIES PARA MÓVILES */
+.Main-h1 {
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.Main-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main-header {
+    align-content: center;
+    width: 100%;
+}
+
+.Main-headerTitle {
+    font-size: 3.5rem; 
+    text-align: center;
+    padding: 10px 20px; 
+}
+
+.Main-headerSubtitle {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.Main-headerDescription {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+/* MAIN CONTENIDO */
+.Main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Content {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid #c44900;
+    display: block;
+    margin: 10px 0;
+}
+
+.Content img {
+    width: 100%; 
+    min-width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.Content-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.Content-row .Content {
+    width: 100%;
+    margin: 5px 0; 
+}
+}
+
+/* AJUSTES MEDIA QUERIES PARA TABLETS */
+@media (min-width: 769px) and (max-width: 1024px) {
+.Main-h1 {
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.Main-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main-header {
+    align-content: center;
+    width: 100%;
+}
+
+.Main-headerTitle {
+    font-size: 3.5rem; 
+    text-align: center;
+    padding: 10px 20px; 
+}
+
+.Main-headerSubtitle {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.Main-headerDescription {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 10px 20px;
+    width: 100%;
+}
+.Main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Content {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid #c44900;
+    display: block;
+    margin: 10px 0;
+}
+
+.Content img {
+    width: 100%; 
+    min-width: 100%; 
+    height: auto;
+    display: block;
+}
+    
+.Content-row {
+    display: flex;
+    flex-direction: column;
+}
+    
+.Content-row .Content {
+    width: 100%;
+    margin: 5px 0; 
+}
+}

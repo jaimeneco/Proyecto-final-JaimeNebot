@@ -147,3 +147,136 @@ CSS MAIN PROJECTS
 .Card-title:hover{
     color: #fff;
 }
+
+/*--------------------------------
+CSS MEDIA QUERIES PROJECTS
+--------------------------------*/
+@media (max-width: 768px){
+/* AJUSTES MEDIA QUERIES PARA MÓVILES */
+.Main {
+    background: #F1ECE7;
+}
+
+/* TAB BOTONES */
+.Tabs-buttons {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #090909;
+    margin: 10px;
+    font-size: 1.8rem; /* Ajustado para pantallas pequeñas */
+    flex-wrap: wrap; /* Hacer que los botones se ajusten */
+}
+
+.Tabs-button {
+    padding: 8px 16px;
+    background: #fff;
+    border: 2px solid #090909;
+    color: #090909;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.Tabs-button:hover {
+    transform: scale(1.1); /* Más suave para pantallas pequeñas */
+}
+
+.u-active {
+    background-color: #c44900;
+    border: 2px solid #c44900;
+    color: #F1ECE7;
+}
+
+.u-visible {
+    display: block;
+}
+
+/* CARDS */
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #090909;
+    width: 100%; /* Ajuste para pantallas pequeñas */
+    max-width: 350px; /* Limitar el tamaño */
+    margin: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.Card:hover {
+    transform: scale(1.05); /* Menor escala para pantallas pequeñas */
+    background: #c44900;
+    color: #fff;
+}
+
+/* ILUSTRACIONES */
+.Card-ilustration {
+    width: 100%;
+    height: 200px; /* Reducido para pantallas pequeñas */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* GAMES Y WEB */
+.Card-game, .Card-web {
+    height: 200px; /* Ajustado para pantallas pequeñas */
+}
+
+.Card .Card-text {
+    padding: 0 10px 10px;
+    justify-content: center;
+}
+
+/* BOTONES ENLACE A PROYECTOS */
+#Card-btn {
+    border: 2px solid #c44900;
+    padding: 8px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #090909;
+    text-align: center;
+    font-size: 1.2rem; /* Tamaño ajustado */
+}
+
+#Card-btn:hover {
+    border: 2px solid #fff;
+    background: #fff;
+    color: #c44900;
+}
+
+/* TÍTULOS */
+.Card-h3 {
+    font-size: 1.5rem; /* Ajustado el tamaño del título */
+    margin: 10px;
+    text-align: center;
+}
+
+.Card-title {
+    text-decoration: none;
+    color: #090909;
+}
+
+.Card-title:hover {
+    color: #fff;
+}
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) {
+    
+}

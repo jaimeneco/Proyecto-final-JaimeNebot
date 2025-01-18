@@ -33,3 +33,33 @@ CSS MAIN TYC
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
 }
+
+/*--------------------------------
+CSS MEDIA QUERIES TYC
+--------------------------------*/
+/* AJUSTES MEDIA QUERIES PARA MÓVILES */
+@media (max-width: 768px){
+.Main {
+    background: #fff;
+    background-size: cover;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 20px; /* Reducido el padding para pantallas pequeñas */
+    text-align: justify;
+    }
+
+.Main-title {
+    font-size: 2rem;
+    text-align: center;
+    }
+
+.Main-subtitle {
+    padding: 8px 0px;
+    font-size: 1.2rem;
+    }
+
+.Main-text {
+    padding: 8px 0px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    }
+}

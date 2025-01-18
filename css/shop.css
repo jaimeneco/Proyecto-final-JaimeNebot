@@ -136,3 +136,85 @@ font-size: 1.5rem;
     transition: 1s ease;
     transform: scale(1.05);
 }
+
+/*--------------------------------
+CSS MEDIA QUERIES SHOP
+--------------------------------*/
+@media (max-width: 768px){
+/* AJUSTES MEDIA QUERIES PARA MÓVILES */
+.Main {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Main-resumen {
+    padding: 30px;
+    margin: 20px 0;
+    background: #f1ece7;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.Producto {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.Producto-image {
+    width: 80px; 
+    height: 120px;
+}
+
+.Producto-text {
+    font-size: 1.2rem; 
+    text-align: center; 
+}
+
+.Producto-precio {
+    font-size: 1.3rem;
+    text-align: center; 
+}
+
+.Btn-shop {
+    padding: 15px 25px;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.Btn-shop:hover {
+    font-size: 1.2rem;
+}
+
+.Main-form {
+    width: 100%;
+}
+
+.Form-title {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.Fieldset {
+    padding: 15px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.Fieldset-label {
+    font-size: 1rem;
+}
+
+.Fieldset-input {
+    width: 100%;
+}
+
+
+.Btn-form {
+    width: 100%;
+    max-width: 350px; 
+}
+}
+
+

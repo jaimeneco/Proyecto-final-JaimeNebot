@@ -146,3 +146,160 @@ CSS MAIN CONTACT
     transition: 1s ease;
     transform: scale(1.05);
 }
+
+/*--------------------------------
+CSS MEDIA QUERIES CONTACT
+--------------------------------*/
+@media (max-width: 768px){
+/* AJUSTES MEDIA QUERIES PARA MÓVILES */
+.Main {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1ECE7;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.Main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: #090909;
+    align-items: center;
+}
+
+.Maps {
+    display: none;
+}
+
+.Main-social {
+    width: 100%;
+    max-width: 300px;
+    align-content: center;
+}
+
+.Logo-social {
+    width: 60px; 
+    padding: 10px;
+    
+}
+
+.Main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Fieldset {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+}
+
+.Fieldset-label {
+    font-size: 1rem;
+}
+
+.Fieldset-input {
+    border: 2px solid #c44900;
+    background: #F1ECE7;
+    border-radius: 10px;
+    padding: 10px;
+    color: #090909;
+    width: 100%;
+}
+
+.Fieldset-input:hover {
+    transform: scale(1.05);
+}
+
+.Btn-form {
+    font-size: 1.6rem; 
+}
+}
+
+/* AJUSTES MEDIA QUERIES PARA TABLET */
+@media (min-width: 769px) and (max-width: 1024px) {
+.Main {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1ECE7;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.Main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: #090909;
+    align-items: center;
+}
+
+.Main-social {
+    width: 100%;
+    max-width: 300px;
+    align-content: center;
+}
+
+.Logo-social {
+    width: 60px; 
+    padding: 10px;
+    
+}
+
+.Main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Fieldset {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+}
+
+.Fieldset-label {
+    font-size: 1rem;
+}
+
+.Fieldset-input {
+    border: 2px solid #c44900;
+    background: #F1ECE7;
+    border-radius: 10px;
+    padding: 10px;
+    color: #090909;
+    width: 100%;
+}
+
+.Fieldset-input:hover {
+    transform: scale(1.05);
+}
+
+.Btn-form {
+    font-size: 1.6rem; 
+}
+}
