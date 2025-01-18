@@ -1,45 +1,35 @@
-/* Colores:
-Negro: Principal #090909 
-Complementario 1 Naranja: #c44900
-Complementario 2 Blanco roto: #F1ECE7
-Blanco total: #ffffff
-*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.Body {
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-}
+/* Descripción: este archivo contiene todos los ajustes referidos al CSS que se aplican en el documento tyc.html del sitio web.
+Estructura general:
+- CSS Main
+ */
 
 /*--------------------------------
-CSS MAIN ABOUT ME
+CSS MAIN TYC
 --------------------------------*/
+/* CSS MAIN CONTENIDO*/
 .Main{
     background: #fff;
     background-size: cover;
     font-family: "Bebas Neue", sans-serif;
-    
     padding: 50px;
     text-align: justify;
 }
+
+/* CSS MAIN TÍTULO*/
 .Main-title{
     padding: 10px 0px;
-    font-size: 45px ;
+    font-size: 3.2rem;
 }
 
+/* CSS MAIN SUBTÍTULO*/
 .Main-subtitle{
     padding: 10px 0px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 26px;
+    font-size: 2rem;
 }
 
+/* CSS MAIN TEXTOS*/
 .Main-text{
     padding: 10px 0px;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 1.2rem;
 }

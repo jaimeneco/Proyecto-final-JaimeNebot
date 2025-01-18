@@ -1,9 +1,9 @@
-/* Colores:
-Negro: Principal #090909 
-Complementario 1 Naranja: #c44900
-Complementario 2 Blanco roto: #F1ECE7
-Blanco total: #ffffff
-*/
+/* Descripción: este archivo contiene todos los ajustes generales referidos al CSS que se aplican en el Header y el Footer de todos los archivos HTML del sitio web.
+Estructura general:
+- CSS Reset general
+- CSS Body:
+    - CSS Header
+    - Footer:  */
 /*--------------------------------
 CSS RESET GENERAL
 --------------------------------*/
@@ -16,6 +16,7 @@ CSS RESET GENERAL
 .Body {
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 /*--------------------------------
@@ -29,14 +30,16 @@ CSS HEADER GENERAL
     background: #F1ECE7;
 }
 
+/* CSS HEADER LOGOTIPO */
 .Header-logoImage {
     width: 300px;
     padding: 30px 40px;
 }
 
+/* CSS HEADER NAVEGACIÓN */
 .Header-nav {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .Header-navList {
@@ -53,7 +56,6 @@ CSS HEADER GENERAL
 
 .Header-navLink:hover {
     text-decoration: underline;
-    text-decoration-color: #090909;
     text-decoration-thickness: 5px;
 }
 
@@ -69,6 +71,7 @@ CSS FOOTER GENERAL
     padding: 60px 60px;
 }
 
+/* CSS FOOTER NAVEGACIÓN */
 .Footer-nav{
     display: flex;
     flex-direction: column;
@@ -97,17 +100,20 @@ CSS FOOTER GENERAL
     text-decoration-thickness: 3px;
 }
 
+/* CSS FOOTER LOGOTIPO */
 .Footer-logoImage {
     width: 300px;
 }
 
+/* CSS FOOTER CONTENIDO */
 .Footer-content{
     display: flex;
     flex-direction: column;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 10px;
     align-items: center;
 }
 
+/* CSS FOOTER BOTÓN */
 .Footer-button {
     display: flex;
     align-items: center;
@@ -117,7 +123,7 @@ CSS FOOTER GENERAL
     padding: 30px;
     color: #F1ECE7;
     background: none;
-    font-size: 20px;
+    font-size: 1.4rem;
     font-family: "Bebas Neue", sans-serif;
     border-radius: 30px;
     text-decoration: none;
@@ -130,10 +136,13 @@ CSS FOOTER GENERAL
     transition: 1s ease;
 }
 
+/* CSS FOOTER COPYRIGHT */
 .Footer-text{
     font-family: "Bebas Neue", sans-serif;
     font-size: large;
 }
+
+/* CSS FOOTER TÉRMINOS Y CONDICIONES */
 .Footer-textLink{
     font-family: "Bebas Neue", sans-serif;
     font-size: large;
@@ -141,6 +150,7 @@ CSS FOOTER GENERAL
     color:#fff;
     padding-top: 10px;
 }
+
 .Footer-textLink:hover{
     text-decoration: underline;
     text-decoration-color: #F1ECE7;

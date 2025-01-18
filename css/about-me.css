@@ -1,34 +1,20 @@
-/* Colores:
-Negro: Principal #090909 
-Complementario 1 Naranja: #c44900
-Complementario 2 Blanco roto: #F1ECE7
-Blanco total: #ffffff
-*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.Body {
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-}
+/* Descripción: este archivo contiene todos los ajustes referidos al CSS que se aplican en el documento about-me.html del sitio web.
+Estructura general:
+- CSS Main
+ */
 
 /*--------------------------------
 CSS MAIN ABOUT ME
 --------------------------------*/
+/* CSS MAIN CONTENIDO */
 .Main{
     background: #F1ECE7;
     background-size: cover;
     font-family: "Bebas Neue", sans-serif;
 }
 .Main-section{
-    /* text-align: justify; */
     text-align: center;
-    padding: 30px;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.2;
     background-color: #fff;
     color: #090909;
@@ -43,6 +29,7 @@ CSS MAIN ABOUT ME
     font-family: "Montserrat", sans-serif;
 }
 
+/* CSS MAIN BOTÓN*/
 .Main-button{
 background: #fff;
 border: 2px solid #c44900;
@@ -51,7 +38,7 @@ padding: 10px;
 margin: 100px;
 text-decoration: none;
 color:#090909;
-font-size: 40px;
+font-size: 2rem;
 }
 
 .Main-button:hover{
@@ -61,11 +48,12 @@ font-size: 40px;
     transition: 1s ease;
 }
 
-/* CSS ACORDEÓN */
-
+/* CSS MAIN ACORDEÓN */
 .Main-acordeon{
     text-decoration: none;
 }
+
+/* CSS MAIN ACORDEÓN ELEMENTOS DE LOS ÍTEMS */
 .Acordeon-item {
     padding: 10px;
 }
@@ -100,18 +88,16 @@ font-size: 40px;
     flex-direction: row;
 }
 
+/* CSS MAIN ACORDEÓN IMAGEN */
 .Acordeon-image{
-    max-width: 50%;
-    min-width: 50%;
-    max-height: auto;
-    min-height: auto;
+    width: 50%;
     height: auto;
-    padding: 0px;
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     filter: grayscale();
 }
 
+/* CSS MAIN ACORDEÓN LISTA */
 .Acordeon-list{
     background: #fff;
     list-style: none;
@@ -125,21 +111,22 @@ font-size: 40px;
     font-family: "Montserrat", sans-serif;
 }
 
+/* CSS MAIN ACORDEÓN TEXTO DEL INTERIOR */
 .Acordeon-listItem{
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.1;
     font-family: "Montserrat", sans-serif;
 }
 
 .Acordeon-listItem--title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Bebas Neue", sans-serif;
     padding: 10px 0px;
 }
 .Acordeon-listItem--subtitle{
     font-style:italic;
-    font-size: 16px;
+    font-size: 1.1rem;
     padding-bottom: 10px;
     font-family: "Montserrat" sans-serif;
 }

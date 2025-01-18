@@ -1,23 +1,11 @@
-/* Colores:
-Negro: Principal #090909 
-Complementario 1 Naranja: #c44900
-Complementario 2 Blanco roto: #F1ECE7
-Blanco total: #ffffff
-*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.Body {
-    display: flex;
-    flex-direction: column;
-}
-
+/* Descripción: este archivo contiene todos los ajustes referidos al CSS que se aplican en el documento contact.html del sitio web.
+Estructura general:
+- CSS Main
+ */
 /*--------------------------------
-CONTACT MAIN CSS
+CSS MAIN CONTACT
 --------------------------------*/
+/* CSS MAIN CONTENIDO */
 .Main {
     display: flex;
     flex-direction: row;
@@ -26,7 +14,7 @@ CONTACT MAIN CSS
     align-items: center;
     padding: 40px 30px;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .Main-content{
@@ -36,6 +24,7 @@ CONTACT MAIN CSS
     color: #090909;
 }
 
+/* CSS MAIN MAPAS */
 .Maps{
     display: flex;
     flex-direction: column;
@@ -68,6 +57,7 @@ CONTACT MAIN CSS
     transform: translateY(0);
     }
 
+/* CSS MAIN ICONOS Y REDES SOCIALES */
 .Main-social {
     background: #c44900;
     color: #fff;
@@ -76,7 +66,7 @@ CONTACT MAIN CSS
     border-radius: 10px;
     margin:10px 0px 10px 0px;
     transform: translateY(20px); 
-    transition: transform, 1s ease; 
+    transition: transform 1s ease; 
 }
 .Main-social:hover{ 
     transform: translateY(0);
@@ -90,6 +80,7 @@ CONTACT MAIN CSS
     transform: scale(1.2);
 }
 
+/* CSS MAIN FORMULARIO: FIELDSET, LABEL E INPUT */
 .Main-form{
     display: flex;
     flex-direction: column;
@@ -134,6 +125,7 @@ CONTACT MAIN CSS
     transform: scale(1.05);
 }
 
+/* CSS MAIN BOTONES FORMULARIO*/
 .Btn-form{
     display: flex;
     flex-direction: row;

@@ -1,3 +1,6 @@
+//-------------------------------------------------------------
+// 1. VARIABLES
+//-------------------------------------------------------------
 const proyectos = [
     {
         id: 1, 
@@ -66,6 +69,9 @@ const proyectoId = urlParams.get("id");
 
 const proyecto = proyectos.find((p) => p.id == proyectoId);
 
+//-------------------------------------------------------------
+// 2. FUNCIONES Y EVENT LISTENERS
+//-------------------------------------------------------------
 if (proyecto) {
     contenedorProyecto.innerHTML =
         `<section class="Main-project">
@@ -91,6 +97,6 @@ if (proyecto) {
         </section>`;
 
 } else {
-    contenedorProyecto.innerHTML = `<p class="ProjectHeader-title"> Proyecto no encontrado :( <br> Lo sentimos </p>`;
+    contenedorProyecto.innerHTML = `<p class="ProjectHeader-title"> Proyecto no encontrado</p>`;
 }
 

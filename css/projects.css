@@ -1,35 +1,21 @@
-/*COLORES: 
-Negro: Principal #090909 
-Complementario 1 Naranja: #c44900
-Complementario 2 Blanco roto: #F1ECE7
-Blanco total: #ffffff
-*/
-/*--------------------------------
-PROJECTS ESPECÍFICO CSS
---------------------------------*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.Body {
-    display: flex;
-    flex-direction: column;
-}
+/* Descripción: este archivo contiene todos los ajustes referidos al CSS que se aplican en el documento projects.html del sitio web.
+Estructura general:
+- CSS Main
+ */
 
 /*--------------------------------
-PROJECTS ESPECÍFICO CSS
+CSS MAIN PROJECTS
 --------------------------------*/
-
 .Main{
     background: #F1ECE7;
 }
 
+/* CSS MAIN TAB*/
 .Tabs-contenido {
     display: none;
 }
 
+/* CSS MAIN TAB BOTONES JS*/
 .Tabs-buttons {
     display: flex;
     list-style: none;
@@ -63,10 +49,7 @@ PROJECTS ESPECÍFICO CSS
     display: block;
 }
 
-/*--------------------------------
-CSS CARDS PROYECTO WEB
---------------------------------*/
-
+/* CSS MAIN CONTENIDO CARDS */
 .Cards {
     display: flex;
     flex-wrap: wrap;
@@ -95,8 +78,9 @@ CSS CARDS PROYECTO WEB
     transition: 0.5s ease;
     background: #c44900;
     color: #fff;
-    filter: none;
 }
+
+/* CSS MAIN CONTENIDO ILUSTRACIONES*/
 .Card-ilustration{
     width: 100%;
     height: 600px;
@@ -108,12 +92,15 @@ CSS CARDS PROYECTO WEB
     min-width: 400px;
 }
 
+/* CSS MAIN CONTENIDO GAMES*/
 .Card-game  {
     width: 100%;
     height: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+/* CSS MAIN CONTENIDO WEB*/
 .Card-web{
     width: 100%;
     height: 300px;
@@ -128,6 +115,7 @@ CSS CARDS PROYECTO WEB
     justify-content: center;
 }
 
+/* CSS MAIN BOTONES ENLACE A PROYECTOS*/
 #Card-btn{
     border: 2px solid #c44900;
     padding: 10px;
@@ -151,9 +139,7 @@ CSS CARDS PROYECTO WEB
     text-align: center;
 }
 
-/*--------------------------------
-CSS CARDS PROYECTO GAMES
---------------------------------*/
+/* CSS MAIN TÍTULO CARD */
 .Card-title{
     text-decoration: none;
     color: #090909;

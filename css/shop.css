@@ -1,68 +1,138 @@
-/* Colores:
-Negro: Principal #090909 
-Complementario 1 Naranja: #c44900
-Complementario 2 Blanco roto: #F1ECE7
-Blanco total: #ffffff
-*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.Body {
-    display: flex;
-    flex-direction: column;
-}
-
+/* Descripción: este archivo contiene todos los ajustes referidos al CSS que se aplican en el documento shop.html del sitio web.
+Estructura general:
+- CSS Main
+ */
 /*--------------------------------
-SHOP MAIN CSS
+CSS MAIN SHOP
 --------------------------------*/
+/* CSS MAIN CONTENIDO*/
 .Main{
     background: #fff;
+    display: flex;
+    flex-direction: row;
 }
 
-#Main-resumen{
+.Main-resumen{
     border: 2px solid #c44900;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 50px;
-    margin:50px;
+    margin:30px;
     background: #f1ece7;
     font-family: "Bebas Neue", sans-serif;
 }
+
+/* CSS MAIN PRODUCTO */
 .Producto{
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 30px;
 }
+
+/* CSS MAIN IMAGEN DEL PRODUCTO */
 .Producto-image{
     width: 100px;
     height: 150px;
     margin: 20px;
 }
+
+/* CSS MAIN TEXTO DEL PRODUCTO */
 .Producto-text{
-margin: 20px;
+margin: 30px;
 font-family: "Montserrat", sans-serif;
 font-size: 1.5rem;
 }
 
+/* CSS MAIN PRECIO DEL PRODUCTO */
 .Producto-precio{
     margin: 50px;
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
 }
 
+/* CSS MAIN BOTONES DEL CARRITO */
 .Btn-shop{
     background: #c44900;
     border-radius: 20px;
     padding: 20px 30px;
-    margin: 20px 30px 20px;
+    margin: 20px 50px 20px;
     text-decoration: none;
     color: #fff;
+    font-size: 1.2rem;
     justify-content: space-between;
 }
 
 .Btn-shop:hover{
     font-size: 1.5rem;
+}
+
+/* CSS MAIN FORMULARIO: FIELDSET, LABEL E INPUT */
+.Main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 50%;
+    color: #090909;
+}
+.Form-title{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    padding: 30px 0px 10px 0px;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    color: #090909;
+} 
+
+.Fieldset{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid #c44900;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.Fieldset-label{
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Fieldset-input{
+    border: 2px solid #c44900;
+    background: #F1ECE7;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #090909;
+}
+.Fieldset-input:hover{
+    transform: scale(1.05);
+}
+
+/* CSS MAIN BOTONES FORMULARIO */
+.Btn-form{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #c44900;
+    padding: 20px;
+    color: #090909;
+    background: #fff;
+    border-radius: 20px;
+    font-family: "Bebas Neue";
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+.Btn-form:hover {
+    background: #c44900;
+    color: #fff;
+    transition: 1s ease;
+    transform: scale(1.05);
 }
